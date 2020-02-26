@@ -3,7 +3,7 @@ function sorting(arrNumber) {
     var arrSorted = arrNumber.sort(function (value1, value2) {
         return value1 < value2
     });
-
+// console.log("IIIII" +arrSorted)
     return arrSorted;
 }
 
@@ -11,8 +11,9 @@ function getTotal(arrNumber) {
     // code di sini
     var angkaTerbesar = arrNumber[0];
     var muncul = 1;
+    // console.log("SSSSSSSS" +arrNumber[0])
 
-    for (let i = 1; i < arrNumber.length; i++) {
+    for (var i = 1; i < arrNumber.length; i++) {
         if (arrNumber[0] === arrNumber[i]) {
             muncul++;
         }

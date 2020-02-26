@@ -26,6 +26,7 @@ function makanTerusRekursif(waktu) {
       makan++;
       waktuSisa = waktu - 15;
     }
+    // console.log("ini "+waktuSisa)
     
     return makan + makanTerusRekursif(waktuSisa);
   }
